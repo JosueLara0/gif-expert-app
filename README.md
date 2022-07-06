@@ -6,12 +6,13 @@ Learning:
 
 1. Unit and components tests with Jest and React Testing library.
 2. Creation and configuration of a Vite app.
+3. PropTypes validations.
 
 # Deployment
 
 GITHUB PAGES:
 
-[LINK]()
+[LINK](https://josuelara0.github.io/gif-expert-app/)
 
 ## Screenshot
 
@@ -23,6 +24,7 @@ GITHUB PAGES:
 2.  [JEST](https://jestjs.io/)
 3.  [TESTING LIBRARY](https://testing-library.com/)
 4.  [VITE](https://vitejs.dev/)
+5.  [PROPTYPES](https://es.reactjs.org/docs/typechecking-with-proptypes.html)
 
 ## Install and run project
 
