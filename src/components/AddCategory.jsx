@@ -1,5 +1,6 @@
 //* libraries
 import { useState } from "react";
+import PropTypes from "prop-types";
 
 //------------------------------------------------------------------------------
 export const AddCategory = ({ onNewCategory }) => {
@@ -14,6 +15,8 @@ export const AddCategory = ({ onNewCategory }) => {
     event.preventDefault();
     const inputValueTrim = inputValue.trim();
     // If the length of the element is '<= 1' then is not added
+
+    console.log(inputValueTrim);
     if (inputValueTrim.length <= 1) return;
 
     //* First way
@@ -24,7 +27,7 @@ export const AddCategory = ({ onNewCategory }) => {
   };
 
   return (
-    <form onSubmit={onSubmit}>
+    <form onSubmit={onSubmit} aria-label="form">
       <input
         type="text"
         placeholder="Search GIFs"
@@ -36,4 +39,9 @@ export const AddCategory = ({ onNewCategory }) => {
       />
     </form>
   );
+};
+
+//? Props validations
+AddCategory.propTypes = {
+  onNewCategory: PropTypes.func.isRequired,
 };

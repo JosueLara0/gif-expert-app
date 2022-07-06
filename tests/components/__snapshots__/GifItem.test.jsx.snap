@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in <GifItem/> should make match with the snapshot 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="One Punch"
+      loading="lazy"
+      src="https://media2.giphy.com/media/oxbNORcXx76F2/giphy.gif?cid=aa030f39gigshg8jcumtz662xsloyek0d7jblzpwqvqnxuhh&rid=giphy.gif&ct=g"
+    />
+    <p>
+      One Punch
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Tests in <GifItem/> should make match with the snapshot 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="One Punch"
+      loading="lazy"
+      src="https://media2.giphy.com/media/oxbNORcXx76F2/giphy.gif?cid=aa030f39gigshg8jcumtz662xsloyek0d7jblzpwqvqnxuhh&rid=giphy.gif&ct=g"
+    />
+    <p>
+      One Punch
+    </p>
+  </div>
+</div>
+`;

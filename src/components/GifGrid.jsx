@@ -1,3 +1,5 @@
+//* libraries
+import PropTypes from "prop-types";
 //* components
 import { GifItem } from "./GifItem";
 //* hooks
@@ -20,4 +22,9 @@ export const GifGrid = ({ category }) => {
       </div>
     </>
   );
+};
+
+//? Props validations
+GifGrid.propTypes = {
+  category: PropTypes.string.isRequired,
 };
